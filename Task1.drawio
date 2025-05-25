@@ -52,9 +52,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aypDigCAvRjZUrw1AZJe-8" value="Training" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="350" y="560" width="140" height="50" as="geometry" />
+          <mxGeometry x="350" y="566" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AgyWlR6LU_paJdRjRDen-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aypDigCAvRjZUrw1AZJe-9">
+        <mxCell id="AgyWlR6LU_paJdRjRDen-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aypDigCAvRjZUrw1AZJe-9" target="aypDigCAvRjZUrw1AZJe-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="810" as="targetPoint" />
           </mxGeometry>
@@ -62,8 +62,8 @@
         <mxCell id="aypDigCAvRjZUrw1AZJe-9" value="Evaluation &amp;amp; F1&lt;br&gt;(f1_score, reports)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="680" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aypDigCAvRjZUrw1AZJe-10" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Save Model&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;selectable-text copyable-text xkrh14z&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;model.save(&quot;soil_classifier_f1_1.h5&quot;)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="255" y="1016" width="250" height="60" as="geometry" />
+        <mxCell id="aypDigCAvRjZUrw1AZJe-10" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Save Model&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;selectable-text copyable-text xkrh14z&quot; style=&quot;white-space-collapse: preserve;&quot;&gt;(model.save)&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="350" y="840" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AgyWlR6LU_paJdRjRDen-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aypDigCAvRjZUrw1AZJe-11" target="aypDigCAvRjZUrw1AZJe-6">
           <mxGeometry relative="1" as="geometry" />
@@ -72,7 +72,10 @@
           <mxGeometry x="120" y="240" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aypDigCAvRjZUrw1AZJe-12" value="Create Submission CSV" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="810" width="140" height="70" as="geometry" />
+          <mxGeometry x="350" y="960" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AgyWlR6LU_paJdRjRDen-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aypDigCAvRjZUrw1AZJe-10" target="aypDigCAvRjZUrw1AZJe-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
